@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "alwayssnow",
+  "version": "1.0.0",
+  "name": "Always Snow",
+  "description": "Let it snow everywhere!",
+  "authors": ["Miraculixx"],
+  "license": "MIT",
+  "icon": "assets/alwayssnow/icon.png",
+  "contact": {
+    "homepage": "https://modrinth.com/mod/always-snow",
+    "issues": "https://dc.mutils.net"
+  },
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "de.miraculixx.alwayssnow.AlwaysSnow"
+    ],
+    "modmenu": [
+      "de.miraculixx.alwayssnow.config.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "alwayssnow.mixins.json"
+  ],
+  "suggests": {
+    "modmenu":"*"
+  },
+  "recommends": {
+    "fabric": "*"
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "minecraft": "~1.20",
+    "fabric-lifecycle-events-v1": "*",
+    "fabric-language-kotlin": "*"
+  }
+}

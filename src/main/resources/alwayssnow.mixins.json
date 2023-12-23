@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "de.miraculixx.alwayssnow.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "MixinBiome",
+    "MixinLevel"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

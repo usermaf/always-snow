@@ -1,0 +1,6 @@
+{
+  "text.autoconfig.alwayssnow.title": "Always Snow Config",
+  "text.autoconfig.alwayssnow.option.alwaysSnow": "Toggle snow override",
+  "text.autoconfig.alwayssnow.option.weatherChange": "Toggle always raining"
+
+}
