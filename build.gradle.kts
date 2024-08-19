@@ -1,6 +1,6 @@
 plugins {
     kotlin("jvm") version "1.9.22"
-    id("fabric-loom") version "1.4-SNAPSHOT"
+    id("fabric-loom") version "1.7-SNAPSHOT"
     id("org.jetbrains.kotlin.plugin.serialization") version "2.0.0-Beta2"
 }
 
